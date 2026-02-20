@@ -1,4 +1,5 @@
-import numpy as np
+import numpy as np  
+#import math
 
 def LU(matrix): #function that takes a matrix and gives P,L,U as output, or error if matrix is singular
     A=matrix.copy()
